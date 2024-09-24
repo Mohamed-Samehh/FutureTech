@@ -8,7 +8,7 @@ function App() {
       <Router>
           <Routes>
               <Route path="/" element={<PodcastPage />} />
-              {/* 7oto be2et al components hena */}
+              <Route path="/podcasts" element={<PodcastPage />} />
           </Routes>
       </Router>
   );
