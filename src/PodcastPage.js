@@ -25,7 +25,7 @@ function PodcastPage() {
                     <Col md={6}>
                         <Card className="podcast-card">
                             <Card.Body>
-                                <div className="image-container">
+                                <div className="image-container mb-4">
                                     <Card.Img variant="top" src="./images/brain image.jpg" className="podcast-img" />
                                     <i className="fa fa-play-circle play-icon"></i>
                                 </div>
@@ -49,7 +49,7 @@ function PodcastPage() {
                     <Col md={6}>
                         <Card className="podcast-card">
                             <Card.Body>
-                                <div className="image-container">
+                                <div className="image-container mb-4">
                                     <Card.Img variant="top" src="./images/robot hand image.jpg" className="podcast-img" />
                                     <i className="fa fa-play-circle play-icon"></i>
                                 </div>

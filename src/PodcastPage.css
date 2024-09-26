@@ -29,6 +29,11 @@
     position: relative !important;
 }
 
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
 .play-icon {
     position: absolute !important;
     top: 50% !important;
