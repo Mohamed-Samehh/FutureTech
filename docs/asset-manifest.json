@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/FutureTech/static/css/main.97aa12b9.css",
+    "main.js": "/FutureTech/static/js/main.5ff8803b.js",
+    "static/js/453.7f32ee89.chunk.js": "/FutureTech/static/js/453.7f32ee89.chunk.js",
+    "static/media/fa-solid-900.ttf": "/FutureTech/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/TopicsCoverage.png": "/FutureTech/static/media/TopicsCoverage.d77d274855e5ea32e8e7.png",
+    "static/media/TopicsVarietyImage.png": "/FutureTech/static/media/TopicsVarietyImage.88d72f1744135e8a1e54.png",
+    "static/media/anagebta5ry.png": "/FutureTech/static/media/anagebta5ry.1915f8c3706d4766db78.png",
+    "static/media/Sub Containerc4 (10).png": "/FutureTech/static/media/Sub Containerc4 (10).d1875081cc2503b6d201.png",
+    "static/media/Sub Containerc1 (10).png": "/FutureTech/static/media/Sub Containerc1 (10).4a5a67a9828eb5e921a1.png",
+    "static/media/fa-brands-400.ttf": "/FutureTech/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/Sub Containerc2 (10).png": "/FutureTech/static/media/Sub Containerc2 (10).0a62a8b5f205f70afe04.png",
+    "static/media/Image.png": "/FutureTech/static/media/Image.0c4af29f98e090cf37ac.png",
+    "static/media/Sub Containerc3 (10).png": "/FutureTech/static/media/Sub Containerc3 (10).60737f29816a98e67939.png",
+    "static/media/fa-solid-900.woff2": "/FutureTech/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/Image (2).png": "/FutureTech/static/media/Image (2).b4b062e038433f769f78.png",
+    "static/media/fa-brands-400.woff2": "/FutureTech/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/Image (3).png": "/FutureTech/static/media/Image (3).02ea5356220781a36d0f.png",
+    "static/media/Image (1).png": "/FutureTech/static/media/Image (1).78e40a8882a2eefb5316.png",
+    "static/media/fa-regular-400.ttf": "/FutureTech/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/FutureTech/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/heartIcon.png": "/FutureTech/static/media/heartIcon.e4ffc7816448cc0e4475.png",
+    "static/media/commentIcon.png": "/FutureTech/static/media/commentIcon.a7384ecae7d2b36a6d50.png",
+    "static/media/fa-v4compatibility.ttf": "/FutureTech/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/sendIcon.png": "/FutureTech/static/media/sendIcon.deecc6e72cd2c633ec83.png",
+    "static/media/fa-v4compatibility.woff2": "/FutureTech/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/FutureTech/index.html",
+    "main.97aa12b9.css.map": "/FutureTech/static/css/main.97aa12b9.css.map",
+    "main.5ff8803b.js.map": "/FutureTech/static/js/main.5ff8803b.js.map",
+    "453.7f32ee89.chunk.js.map": "/FutureTech/static/js/453.7f32ee89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97aa12b9.css",
+    "static/js/main.5ff8803b.js"
+  ]
+}
