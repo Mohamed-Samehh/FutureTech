@@ -1,7 +1,7 @@
 import './App.css';
 import { Component } from 'react';
 import Navbar from './components/Nav';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
 import News from './components/news'; // Corrected import for News component
 import PodcastPage from './PodcastPage';
@@ -23,7 +23,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <Router basename="/FutureTech">  {/* Replace /Repo-Name with your actual repo name */}
         <div className="App">
           <Navbar />
           <Routes>
@@ -36,7 +36,7 @@ class App extends Component {
             <Route path="*" element={<Notfound />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
