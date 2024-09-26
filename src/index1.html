@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react@18/umd/react.production.min.js">
+    </script>
+    <script 
+        crossorigin 
+        src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js">
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+
+
+        class App extends React.Component {
+            state ={
+                message: "I'm Not NADERRR",
+                name : "Mohamed Alaa"
+            }
+            render() {
+                return (
+                <div>
+                    {console.log(this)}
+                    <p>My name is: {this.state.name} and my message is: {this.state.message}</p>
+                    <Header title="My website" name = "react" />
+                    <Header title="Header"/>
+                    <Main/>
+                    <Footer/>
+                </div>
+                );
+            }
+        }
+
+
+        // Header Component
+        class Header extends React.Component{
+            state= {
+                name: "Header Component"
+            }
+            render(){
+                return(
+                    <header>{this.props.title} and my name is {this.state.name}</header>
+                );
+        }
+    }
+        
+        // Main Component
+        class Main extends React.Component{
+            render(){
+                return(
+                <main>Content</main>
+                )
+            }
+        }
+    
+        // Footer Component
+        class Footer extends React.Component{
+            render(){
+                return(
+                <footer>Mohamed</footer>
+                )
+            }
+        }
+
+        let app = document.getElementById("app");
+        ReactDOM.render(<App/>, app);
+    </script>
+</body>
+</html>

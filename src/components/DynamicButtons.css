@@ -1,0 +1,56 @@
+.dynamic-buttons {
+  display: flex;
+  gap: 10px; /* Adjust gap between buttons if needed */
+  margin-top: 20px; /* Add margin to separate from previous content */
+}
+
+.dynamic-button {
+  display: flex;
+  align-items: center;
+  padding: 6px 12px;
+  background-color: #191919;
+  border: 1px #262626 solid;
+  border-radius: 100px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.dynamic-button .icon {
+  margin-right: 8px;
+  width: 20px; /* Adjust icon size */
+  height: 20px; /* Adjust icon size */
+}
+
+/* Hover effect */
+.dynamic-button.hovered {
+  background-color: #2c2c2c;
+}
+
+/* Click effect */
+.dynamic-button:active {
+  transform: scale(0.95);
+}
+.read-more-button1{
+  margin-top: -100px;
+    background-color: transparent;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #aaa;
+    cursor: pointer;
+    /* align-self: flex-end; */
+    transition: all 0.3s ease;
+    /* display: flex; */
+    /* align-items: center; */
+    /* gap: 5px; */
+    float: right;
+
+}
+@media (max-width: 768px) {
+  .read-more-button1{
+    margin-top: 0px;
+  }
+}

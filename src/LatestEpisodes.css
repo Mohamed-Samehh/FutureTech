@@ -1,84 +1,84 @@
 .latest-episodes-section {
-    background-color: #111;
-    color: #fff;
-    padding: 50px 0;
-    margin-top: 50px;
+    background-color: #111 !important;
+    color: #fff !important;
+    padding: 50px 0 !important;
+    margin-top: 50px !important;
 }
 
 .latest-episodes-heading {
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #fff;
-    padding-left: 50px;
+    font-size: 2.2rem !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    padding-left: 50px !important;
 }
 
 .latest-episodes-description {
-    font-size: 1.1rem;
-    color: #ccc;
-    max-width: 700px;
-    margin: 0 auto;
-    padding-left: 60px;
+    font-size: 1.1rem !important;
+    color: #ccc !important;
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    padding-left: 60px !important;
 }
 
 /* Card Styles */
 .latest-episode-card {
     background-color: #1b1b1e !important;
-    border: none;
-    color: #fff;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    border: none !important;
+    color: #fff !important;
+    margin-bottom: 30px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .latest-episode-card .card-body {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .latest-episode-img {
-    height: 180px;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
 }
 
 .image-container {
-    position: relative;
+    position: relative !important;
 }
 
 .play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    color: white;
-    opacity: 0.8;
-    pointer-events: none;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 48px !important;
+    color: white !important;
+    opacity: 0.8 !important;
+    pointer-events: none !important;
 }
 
 .image-container:hover .play-icon {
-    opacity: 0.5;
+    opacity: 0.5 !important;
 }
 
 .latest-episode-title {
-    font-size: 1.4rem;
-    color: #ffd700;
+    font-size: 1.4rem !important;
+    color: #ffd700 !important;
 }
 
 .latest-episode-description {
-    font-size: 1rem;
-    color: #e0e0e0;
-    margin-bottom: 10px;
-    flex-grow: 1;
+    font-size: 1rem !important;
+    color: #e0e0e0 !important;
+    margin-bottom: 10px !important;
+    flex-grow: 1 !important;
 }
 
 .episode-duration {
-    font-size: 0.9rem;
-    color: #999;
-    margin-bottom: 15px;
+    font-size: 0.9rem !important;
+    color: #999 !important;
+    margin-bottom: 15px !important;
 }
